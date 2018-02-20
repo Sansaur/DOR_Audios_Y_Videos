@@ -80,12 +80,12 @@ nav span {
 
 #controles #barraCarga {
   width: 300px;
-  height: 75%;
+    height: 45px;
   margin-top: 0.5%; }
 
 #controles #barraVolumen {
   width: 300px;
-  height: 75%;
+    height: 45px;
   margin-top: 0.5%;
   border: 1px solid black; }
 
@@ -153,6 +153,12 @@ footer {
   vertical-align: text-top;
   background-color: gray;
   border-bottom: 3px solid black; }
+#textoLicencia{
+  font-size: 1.5em;
+  vertical-align: middle;
+  padding-top: 18px;
+
+}
 
 /*
     Estilo video
