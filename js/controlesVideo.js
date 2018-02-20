@@ -128,42 +128,30 @@ function pantallaCompleta() {
                 });
             }
         });
-        if (todoDOM.requestFullscreen) {
-            todoDOM.requestFullscreen();
-        } else if (todoDOM.mozRequestFullScreen) {
-            todoDOM.mozRequestFullScreen();
-        } else if (todoDOM.webkitRequestFullScreen) {
-            todoDOM.webkitRequestFullScreen();
-        } else if (todoDOM.msRequestFullscreen) {
-            todoDOM.msRequestFullscreen();
-        }
-        /*
-         $('video').css({
-         position: "absolute",
-         top: "0%",
-         left: "0%",
-         minWidth: "77vw",
-         minHeight: "77vh",
-         maxWidth: "none",
-         maxHeight: "none",
-         marginLeft: "11.5%"
-         });
-         */
-
-        /*
-         $('#controles').css({
-         position: "absolute",
-         bottom: "0%",
-         left: "0%",
-         width: "77vw",
-         minWidth: "50vw",
-         minHeight: "10",
-         marginLeft: "11.5%",
-         zIndex: "100"
-         });
-         */
-    } else {
-
+		if(isFullScreen){
+			if (document.exitFullscreen) {
+				document.exitFullscreen();
+			} else if (document.webkitExitFullscreen) {
+				document.webkitExitFullscreen();
+			} else if (document.mozCancelFullScreen) {
+				document.mozCancelFullScreen();
+			} else if (document.msExitFullscreen) {
+				document.msExitFullscreen();
+			}
+			isFullScreen = false;
+		} else {
+			if (todoDOM.requestFullscreen) {
+				todoDOM.requestFullscreen();
+			} else if (todoDOM.mozRequestFullScreen) {
+				todoDOM.mozRequestFullScreen();
+			} else if (todoDOM.webkitRequestFullScreen) {
+				todoDOM.webkitRequestFullScreen();
+			} else if (todoDOM.msRequestFullscreen) {
+				todoDOM.msRequestFullscreen();
+			}
+			isFullScreen = true;
+		}
+        
     }
 
 }
