@@ -152,8 +152,10 @@ footer {
   height: fit-content;
   vertical-align: text-top;
   background-color: gray;
-  border-bottom: 3px solid black; }
+  border-bottom: 3px solid black;
+display:flex;}
 #textoLicencia{
+  
   font-size: 1.5em;
   vertical-align: middle;
   padding-top: 18px;
