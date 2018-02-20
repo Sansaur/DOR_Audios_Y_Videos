@@ -87,7 +87,12 @@ nav span {
 #controles #barraVolumen {
   width: 300px;
     height: 40px;
-  margin-top: 0%;
+  margin-top: 0%;}
+
+#controles #barraVolumen {
+  width: 300px;
+    height: 40px;
+  margin-top: 0.2%;
   border: 1px solid black; }
 
 #barritaVolumen {
@@ -160,7 +165,6 @@ footer {
   font-size: 1.5em;
   vertical-align: middle;
   padding-top: 18px;
-
 }
 /*
     Estilo video
