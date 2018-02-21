@@ -1,0 +1,30 @@
+[0219/085326.412:ERROR:process_info.cc(632)] range at 0xdc561fbe00000000, size 0x27e fully unreadable
+[0219/085326.474:ERROR:process_info.cc(632)] range at 0xdc561fde00000000, size 0x27e fully unreadable
+[0219/085326.474:ERROR:process_info.cc(632)] range at 0x0, size 0x27e fully unreadable
+[0219/085911.092:ERROR:process_info.cc(632)] range at 0xabf20ce00000000, size 0x1f7 fully unreadable
+[0219/085911.092:ERROR:process_info.cc(632)] range at 0xabf20ee00000000, size 0x1f7 fully unreadable
+[0219/085911.092:ERROR:process_info.cc(632)] range at 0x0, size 0x1f7 fully unreadable
+[0220/141216.094:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0220/141216.096:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0220/141216.097:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0220/141216.098:ERROR:main_dll_loader_win.cc(136)] Failed to load Chrome DLL from C:\Program Files (x86)\Footjane\Application\58.0.3029.81\chrome.dll: No se puede encontrar el módulo especificado. (0x7E)
+[0220/141222.469:ERROR:persistent_memory_allocator.cc(777)] Corruption detected in shared-memory segment.
+[0220/141222.470:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0220/141222.472:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0220/141222.472:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0220/170727.780:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0220/170727.783:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0220/170727.784:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0220/171737.951:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0220/171737.961:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0220/171737.962:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0220/172221.640:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0220/172221.649:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0220/172221.650:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0220/172829.443:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0220/172829.452:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0220/172829.452:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0220/173412.055:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0220/173412.062:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0220/173412.062:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Google\Chrome\settings.dat: Acceso denegado. (0x5)
+[0221/095045.421:ERROR:settings.cc(258)] Settings magic is not 1129342067
